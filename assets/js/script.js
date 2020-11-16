@@ -14,8 +14,9 @@ $(document).ready(function(){
         responsive:{
             0:{
                 items: 3,
-                autoplay:false,
-
+                nav:false,
+                autoplayTimeout:5000,
+                autoplaySpeed:400,
             },
             480:{
                 items:4,

@@ -180,7 +180,7 @@ header .social-icon a {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     top: 0;
     right: -1000%;
     -webkit-transition: .4s;
@@ -188,7 +188,7 @@ header .social-icon a {
     transition: .4s;
     background: #000000;
     border-radius: 0 4px 4px 0;
-    padding: 60px 40px 40px 40px;
+    padding: 80px 20px 40px 20px;
 }
 
 .burger-menu .burger-menu_nav .burger-menu_button.two {
@@ -205,15 +205,18 @@ header .social-icon a {
     width: 22px;
     height: 17px;
 }
-
 .burger-menu .burger-menu_nav .burger-menu_link {
     display: inline-block;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 25px;
     line-height: 14px;
     color: #C1925E;
-    margin-bottom: 23px;
+    margin-bottom: 41px;
     position: relative;
+}
+.burger-menu .burger-menu_nav .burger-menu_link.first {
+    font-size: 23px;
+    color: #ffffff;
 }
 .burger-menu .burger-menu_nav .burger-menu_link.first {
     font-size: 17px;
