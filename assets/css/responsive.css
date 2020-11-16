@@ -1,0 +1,200 @@
+@media (max-width: 1600px) {
+    #grid .gender-box {
+        height: 330px;
+    }
+}
+@media (max-width: 1200px) {
+    header .nav_menu ul li a {
+        font-size: 15px;
+    }
+    #wear .box {
+        background-size: cover;
+        height: 220px;
+    }
+    #contacts .contacts-row {
+        display: flex;
+        justify-content: flex-start;
+    }
+    #popular .popular_item img {
+        object-fit: contain;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+    #popular .popular_item {
+        height: 90px;
+        width: 90px;
+    }
+}
+@media (max-width: 991px) {
+    .header-fixed {
+        display: block;
+    }
+    .nav-fixed {
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+    header .contacts,
+    header .header-wrapper .header-top_nav{
+    display: none;
+    }
+    header .nav_menu {
+        display: none;
+    }
+    #grid .gender-box {
+        height: 200px;
+    }
+    .section-title {
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    #popular {
+        padding: 20px 0 50px 0;
+    }
+    #popular .popular_item {
+        border: none;
+        display: block;
+        width: 100%;
+        height: 90px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #popular .popular_item img {
+        width: 90px;
+        height: 90px;
+        margin:  0 auto;
+    }
+    #grid .gender-box .button {
+        height: 35px;
+        font-size: 14px;
+        width: 170px;
+    }
+    #grid .gender-box .title {
+        font-size: 17px;
+        color: #ffffff;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 576px){
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 30px;
+        width: 100%!important;
+    }
+    .section-title {
+        font-size: 26px;
+    }
+    footer .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .footer .nav_menu {
+        display: none;
+    }
+    #contacts .social-icon a img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+    }
+    .tabs__caption li {
+        font-size: 17px;
+    }
+    .tabs__caption.kids {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .accordion .accordion-header {
+        padding: 13px 15px 13px 15px;
+    }
+    .accordion-header img {
+        width: 35px;
+        height: 35px;
+    }
+    .accordion .panel {
+        background: #ffffff;
+        padding: 13px 15px 13px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    #wear {
+        padding: 25px 0 40px 0;
+        background: #e5e5e5;
+    }
+    .tabs__caption {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .tabs__caption li {
+        font-size: 15px;
+    }
+    .section-title {
+        font-size: 22px;
+    }
+    #popular {
+        padding: 0;
+    }
+    header .header-wrapper .logo img {
+        width: 70px;
+        height: 50px;
+    }
+    .burger-menu .burger-menu_button {
+        width: 25px;
+        height: 20px;
+    }
+    header .header-wrapper .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+    .accordion-header img {
+        width: 30px;
+        height: 30px;
+    }
+    .accordion-header .ques {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .accordion {
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+    #information {
+        padding: 30px 0;
+    }
+}
+@media (min-width: 768px) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}
