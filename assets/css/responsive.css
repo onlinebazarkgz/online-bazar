@@ -131,6 +131,9 @@
 }
 
 @media (max-width: 480px) {
+    #popular .popular_item:hover {
+        border: none;
+    }
     .container {
         padding: 0 15px;
     }
